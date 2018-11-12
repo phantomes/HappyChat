@@ -32,6 +32,8 @@ public class ChatProto {
         this.body = body;
     }
 
+
+
     public static String buildPingProto() {
         return buildProto(PING_PROTO, null);
     }
